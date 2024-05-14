@@ -6,6 +6,8 @@ The folder added to a theme folder and was tested as working sucessfully with de
 
 The end result is a phone screen that can show custom messages dynamically as either a part of rendered content or as a custom block thanks to leveraging the Paragraphs, sdc_display, paragraphs_viewmode, and nomarkup modules.
 
+N.B. The CSS was taken from this public example: https://codepen.io/azoschke/pen/wvdbLLj
+
 ## Previewing Components in Storybook
 
 You can also preview the components using  [Storybook](https://storybook.js.org/). To be able to do so, you will have to install an additional module ([CL Server](https://www.drupal.org/project/cl_server)) and other third-party tools using a JS package manager, such as npm or yarn.
