@@ -1,0 +1,50 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: text_messages
+status: stable
+description: text messages for phone mockup component
+props:
+  type: object
+  properties:
+    message_1:
+      type: string
+      title: Message 1
+      # @todo Add examples here.
+      examples: []
+    message_2:
+      type: string
+      title: Message 2
+      # @todo Add examples here.
+      examples: []
+    message_3:
+      type: string
+      title: Message 3
+      # @todo Add examples here.
+      examples: []
+    message_4:
+      type: string
+      title: Message 4
+      # @todo Add examples here.
+      examples: []
+    message_5:
+      type: string
+      title: Message 5
+      # @todo Add examples here.
+      examples: []
+    message_6:
+      type: string
+      title: Message 6
+      # @todo Add examples here.
+      examples: []
+# This is how you take control of the keys in your library
+# declaration. The overrides specified here will be merged (shallow merge) with
+# the auto-generated library. The result of the merge will become the library
+# for the component.
+libraryOverrides:
+  # Once you add a key in the overrides, you take control of it. What you type
+  # here is what will end up in the library component.
+  dependencies:
+    - core/drupal
+    - core/once
+  css:
+    component:
+      text_messages.css: {}

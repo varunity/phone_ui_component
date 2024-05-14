@@ -1,0 +1,48 @@
+<div {{ attributes }}>
+  {# Keep the outer div whenever possible it is a nice way to ensure the presence of "attributes" #}
+  {% block example_block %}
+  
+    
+
+    <div class="phone-graphic"><div class="phone-case">
+      <div class="phone-container-outer">
+        <div class="phone-container-inner">
+          <div class="phone-header">
+            <p class="phone-header-time">1:02</p>
+            <p class="phone-header-icons"><span class="material-icons">signal_cellular_alt</span> <span class="material-icons">wifi</span> <span class="material-icons battery">battery_std</span></p>
+              <div class="contact-image"> <span class="material-icons">person</span> </div>
+              <p class="contact-phone">+1 (800) IAM-TEXT</p>
+          </div>
+          <div class="phone-messages">
+            <div class="message message-you">
+              <p>{{ message_1 }} </p>
+            </div>
+            <div class="message message-contact">
+              <p>{{ message_2 }}</p>
+            </div>
+            <div class="message message-you">
+              <p>{{ message_3 }}</p>
+            </div>
+            <div class="message message-contact">
+              <p>{{ message_4 }}</p>
+            </div>
+            <div class="message message-you">
+              <p>{{ message_5 }}</p>
+            </div>
+            <div class="message message-contact">
+              <p>{{ message_6 }}</p>
+            </div>
+          </div>
+          <div class="phone-footer">
+            <div class="phone-footer-icons"><span class="material-icons">photo_camera</span></div>
+            <div class="phone-footer-input">
+              <p>Text Message</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  {% endblock %}
+</div>
